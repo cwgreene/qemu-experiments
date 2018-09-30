@@ -1,4 +1,6 @@
 .global _start
+.code16
 _start:
-	mov $3, %ecx
+	mov $0x0100, %cx
 	hlt
+
