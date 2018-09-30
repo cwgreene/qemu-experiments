@@ -4,9 +4,6 @@ By default, it looks like qemu uses the SEABios as it's BIOS
 
 https://seabios.org/SeaBIOS
 
-
-
-
 The bootloader image needs to exactly 512 bytes with 0x55aa as the
 last two bytes.
 
